@@ -24,3 +24,20 @@
     display: inline-block;
     margin-right: 10px;
 }
+@media all  {
+    .desktop {
+      display: block !important;
+    }
+    .mobile {
+      display: none !important;
+    }
+  }
+  
+@media all and (max-width: 700px) {
+.desktop {
+    display: none !important;
+}
+.mobile {
+    display: block !important;
+}
+}
